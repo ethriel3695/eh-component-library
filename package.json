@@ -1,0 +1,37 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -s public/",
+    "serve-storybook": "serve storybook-static",
+    "chromatic": "npx chromatic --project-token=f77685d75804"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "autoprefixer": "^10.3.1",
+    "next": "^11.0.1",
+    "postcss": "^8.3.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "@storybook/addon-a11y": "^6.3.5",
+    "@storybook/addon-essentials": "^6.3.5",
+    "@storybook/addon-links": "^6.3.5",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-viewport": "^6.3.5",
+    "@storybook/react": "^6.3.5",
+    "@storybook/theming": "^6.3.5",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.8.2",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.7"
+  }
+}
